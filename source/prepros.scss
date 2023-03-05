@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
 }
 
 .header {
@@ -31,8 +33,6 @@
     padding-left: 11px;
 }
 p.header-top__text{
-    font-family: 'Montserrat',sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -55,8 +55,6 @@ background-color: #FFFFFF;
     width: 52.2%;
 
     nav{
-        font-family: 'Montserrat',sans-serif;
-        font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 20px;
@@ -106,11 +104,10 @@ li.header-bottom__item {
     img{
         object-fit: cover;
     }
-background-image:url("/img/Group\ 61_img.png");
-background-repeat: no-repeat;
-background-size:100% 100%;
-
-height: 492px;
+        background-image:url("/img/Group\ 61_img.png");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        height: 492px;
 }
 .window {
     padding-top: 70px;
@@ -128,8 +125,6 @@ height: 492px;
     border: 1px 0 0 solid;
 }
 .window__text h1.text{
-    font-family: 'Montserrat',serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 137.5%;
@@ -139,10 +134,7 @@ height: 492px;
     padding-bottom: 32px;
 }
 .window__container h1.text,.window__container a.text{
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
-  
     line-height: 137.5%;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -172,8 +164,6 @@ height: 492px;
         display: flex;
         padding: 70px 0 67px 0;
         .products__title {
-            font-family: 'Montserrat',sans-serif;
-            font-style: normal;
             font-weight: 700;
             font-size: 32px;
             line-height: 137.5%;
@@ -195,8 +185,6 @@ height: 492px;
         }
     }
 }
-
-
 .products-ambars {
     padding-bottom: 59px;
     .products-ambars__row{
@@ -218,8 +206,6 @@ height: 492px;
         padding: 24px;
         background: #FFFFFF;
         border: 1px solid #E1E1E1;
-        font-family: 'Montserrat',serif;
-        font-style: normal;
         .products-ambars__image {
         max-width: 325px;
         }
@@ -253,7 +239,6 @@ height: 492px;
                     }
                     a.text{
                         text-decoration: none;
-                        font-family: 'Montserrat',sans-serif;
                         font-weight: 600;
                         font-size: 16px;
                         line-height: 137.5%;
@@ -264,8 +249,6 @@ height: 492px;
         }
     }
 }
-
-
 .advertising{
     .advertising__container {
         height: 115px;
@@ -275,8 +258,6 @@ height: 492px;
                 height: 100%;
                 align-items: center;
                 justify-content: center;
-                font-family: 'Montserrat',serif;
-                font-style: normal;
                 font-size: 24px;
                 line-height: 213.5%;
                 color: #FFFFFF;
@@ -314,8 +295,6 @@ height: 492px;
         
         .about__item {
             max-width: 42.94%;
-            font-family:'Montserrat',sans-serif;
-            font-style: normal;
             color: #333333;
             .cap{
                 display: flex;
@@ -378,17 +357,11 @@ height: 492px;
     
     
 }
-
-
 .help{
-    font-family: 'Montserrat',sans-serif;
-    font-style: normal;
     line-height: 142%;
     color: #FFFFFF;
     letter-spacing: 0.015em;
-
     .help-header{
-
         .help-header__container{
             height: 128px;
             background-color: #646464;
@@ -423,16 +396,18 @@ height: 492px;
                                 max-width: 254px;
                             }
                         }
+                        .help-info__title,.help-info__subtitle,.help-info__second-item{
+                            color: #333333;
+                        }
                         .help-info__title{
                             padding: 17px 0 11px 0;
                             font-weight: 500;
                             font-size: 18px;
-                            color: #333333;
+                           
                         }
                         .help-info__subtitle{
                             font-weight: 300;
                             font-size: 14px;
-                            color: #333333;
                         }
                        
                     }
@@ -440,7 +415,6 @@ height: 492px;
                         max-width: 22.28%;
                         font-weight: 300;
                         font-size: 14px;
-                        color: #333333;
                     }
 
                 }
@@ -449,7 +423,6 @@ height: 492px;
         }
     }
 }
-
 .gallery {
     .gallery-container {
         .container {
@@ -508,8 +481,6 @@ height: 492px;
     }
     
 }
-
-
 .contact {
 
     .contact__container {
@@ -624,7 +595,6 @@ height: 492px;
         }
     }
 }
-
   .footer{
     .footer-container{
         background-color: #646464;
@@ -638,9 +608,6 @@ height: 492px;
                     .footer-container__info{
                         text-align: end;
                         p{
-                            
-                            font-family: 'Montserrat',sans-serif;
-                            font-style: normal;
                             font-weight: 500;
                             font-size: 16px;
                             line-height: 137.5%;
@@ -672,13 +639,9 @@ height: 492px;
                         list-style: none;
                         flex-direction: row;
                         a{
-                            font-family: 'Montserrat',sans-serif;
-                            font-style: normal;
                             font-weight: 500;
                             font-size: 16px;
                             line-height: 20px;
-                            /* identical to box height */
-    
                             text-transform: uppercase;
     
                             color: #FFFFFF;
@@ -691,15 +654,11 @@ height: 492px;
                     }
                 }
                 .lang{
-                    font-family: 'Montserrat',sans-serif;
-                    font-style: normal;
+
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 17px;
-                    /* identical to box height */
-
                     text-transform: uppercase;
-
                     color: #FFFFFF;
                 }
                 padding-bottom: 70px;
@@ -708,9 +667,3 @@ height: 492px;
         }   
     }
   }
-
-
-
-
-
-
