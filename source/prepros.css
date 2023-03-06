@@ -403,7 +403,6 @@ li.header-bottom__item {
 .about .about__container .about__image {
 		width: 50%;
 		background-image: url("/img/ambar.png");
-		background-size: 100%;
 		background-repeat: no-repeat;
 		height: 706px;
 }
@@ -411,6 +410,7 @@ li.header-bottom__item {
 		-o-object-fit: cover;
 		   object-fit: cover;
 		max-width: 100%;
+		max-height: 100%;
 }
 
 .help {
