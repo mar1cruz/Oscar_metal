@@ -16,6 +16,21 @@
     max-width: 1140px;
     margin: 0 auto;
     height: 100%;
+    @media (max-width: 1140px){
+        .container{
+            max-width: 970px;
+        }
+    }
+    @media (max-width: 992px){
+        .container{
+            max-width: 750px;
+        }
+    }
+    @media (max-width: 767px){
+        .container{
+            max-width: none;
+        }
+    }
 }
 .header-top {
     height: 50px;
@@ -103,6 +118,7 @@ li.header-bottom__item {
 .kits-container{
     img{
         object-fit: cover;
+        max-width: 100%;
     }
         background-image:url("/img/Group\ 61_img.png");
         background-repeat: no-repeat;
@@ -207,7 +223,10 @@ li.header-bottom__item {
         background: #FFFFFF;
         border: 1px solid #E1E1E1;
         .products-ambars__image {
-        max-width: 325px;
+        
+        img{
+            max-width: 100%;
+        }
         }
         .products-ambars__title {
             font-weight: 500;
