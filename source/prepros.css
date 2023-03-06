@@ -409,6 +409,8 @@ li.header-bottom__item {
 .about .about__container .about__image img {
 		-o-object-fit: cover;
 		   object-fit: cover;
+		width: 800px;
+		height: 600px;
 		max-width: 100%;
 		max-height: 100%;
 }
