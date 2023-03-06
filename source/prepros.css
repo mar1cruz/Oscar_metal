@@ -401,7 +401,7 @@ li.header-bottom__item {
 		padding: 17px 0px 70px 0;
 }
 .about .about__container .about__image {
-		max-width: 100%;
+		width: 50%;
 		background-image: url("/img/ambar.png");
 		background-size: 100%;
 		background-repeat: no-repeat;
