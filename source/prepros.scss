@@ -31,6 +31,7 @@
         }
     }
 }
+
 .header-top {
     height: 50px;
 }
@@ -301,8 +302,8 @@ li.header-bottom__item {
 
 .about {
     .about__container {
-        width: 1530px;
-        height: 706px;
+        max-width: 100%;
+        max-height: 706px;
         margin-right: 0px;
         margin-left:auto ;
         overflow: hidden;
@@ -312,7 +313,7 @@ li.header-bottom__item {
         }
         
         .about__item {
-            max-width: 42.94%;
+            max-width: 50%;
             color: #333333;
             .cap{
                 display: flex;
@@ -353,19 +354,17 @@ li.header-bottom__item {
         }
         
         .about__image {
+            max-width: 100%;
             img{
                 object-fit: cover;
+                max-width: 100%;
 
             }
             background-image: url('/img/ambar.png');
             background-size: 100%;
-
+            background-repeat: no-repeat;
             
-            max-width: 873px;
             height: 706px;
-            width: 100%;
-
-
         }
     }
     
